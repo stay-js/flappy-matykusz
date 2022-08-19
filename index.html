@@ -48,17 +48,17 @@
     <script type="module" src="/src/index.ts" defer></script>
   </head>
 
-  <body class="flex flex-col justify-between min-h-screen">
+  <body class="flex min-h-screen flex-col justify-between">
     <main
-      class="flex flex-col items-center justify-center w-screen"
+      class="flex w-screen flex-col items-center justify-center"
       style="height: calc(100vh - 4.5rem)"
     >
       <div id="game-container" class="hidden flex-col gap-8">
         <div
-          class="relative w-96 h-[500px] rounded border border-gray-200 bg-gray-200 overflow-hidden"
+          class="relative h-[500px] w-96 overflow-hidden rounded border border-gray-200 bg-gray-200"
         >
-          <div id="block" class="absolute left-0 w-12 h-full bg-neutral-900 animate-block">
-            <div id="hole" class="absolute left-0 w-12 h-40 bg-gray-200"></div>
+          <div id="block" class="absolute left-0 h-full w-12 animate-block bg-neutral-900">
+            <div id="hole" class="absolute left-0 h-40 w-12 bg-gray-200"></div>
           </div>
 
           <div id="character" class="absolute left-3">
@@ -76,7 +76,7 @@
     </main>
 
     <footer
-      class="flex flex-col md:flex-row justify-between items-center p-6 text-white bg-neutral-900"
+      class="flex flex-col items-center justify-between bg-neutral-900 p-6 text-white md:flex-row"
     >
       <p>
         Made with &#10084;&#65039; by
