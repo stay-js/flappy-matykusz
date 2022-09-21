@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://flappy.znagy.hu
+
+# Sitemaps
+Sitemap: https://flappy.znagy.hu/sitemap.xml
